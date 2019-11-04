@@ -1,0 +1,12 @@
+[package]
+name = "inverted-index"
+version = "0.1.0"
+authors = ["paulll <paulll@derpy.ru>"]
+edition = "2018"
+
+[dependencies]
+byteorder = "1"
+itoa = "0.4"
+#bitpacking = "0.5"
+turbopfor-sys = {git = "https://github.com/paulll/rust-turbopfor"}
+rand = "0.7"
